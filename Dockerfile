@@ -5,4 +5,4 @@ LABEL Description="Docker image with several debugging tools installed."
 
 RUN \
   yum update -y && \
-  yum install -y nmap-ncat bind-utils
+  yum install -y nmap-ncat bind-utils openssh-clients
