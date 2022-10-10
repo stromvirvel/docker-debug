@@ -1,4 +1,4 @@
-FROM centos:centos7.9.2009
+FROM rockylinux:9.0
 LABEL maintainer="Remo Wenger privat@remowenger.ch"
 LABEL Description="Docker image with several debugging tools installed."
 
